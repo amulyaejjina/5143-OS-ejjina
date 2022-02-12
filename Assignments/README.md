@@ -1,5 +1,5 @@
 ## Assignments
 
-| Number | Folder | Description |
-| :----: | ------ | ----------- |
-|        |        |             |
+| Number | Folder | Description             |
+| :----: | ------ | -----------             |
+|   1    |  Shell  |   Mimicking shell       |
