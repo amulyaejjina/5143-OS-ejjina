@@ -1,55 +1,71 @@
 Date - Feb 14th 2022
 
-Project Title - 5143 Shell Project
+## Project Title - 5143 Shell Project
 
-Project description - Mimicking a basic shell behavior using python
+### **Project description** - Mimicking basic shell behavior using python<br />
+#### **Concepts Used -** 
+1. Recursion<br />
+2. Dictionaries<br />
+3. String & Array operations<br />
+4. Creating Package to pack multiple modules into a single folder<br />
+#### **Modules used -** <br />
+1. Termcolor for coloring output(grep)<br />
+2. Json module for all strings needed(man pages,error messages)<br />
+3. Regex expressions (grep,wc)<br />
+4. Itertools(tail - slicing)
 
-List of commands implemented - 
+#### List of commands implemented - 
 
-1	ls -lah	
+1.	ls/ls -l/ls -la/ls -lah	
 
-2	mkdir bananas
+2. mkdir bananas
 
-3	cd bananas
+3. cd bananas
 
-4	cd ..
+4.	cd ../cd .. ..
 
-5	cd ~		
+5.	cd ~/cd		
 
-6	pwd		
+6.	pwd		
 
-7	mv somefile.txt bananas	
+7.	mv somefile.txt bananas	
 
-8	cp bananas/somefile.txt somefile/otherfile.txt	
+8.	cp bananas/somefile.txt somefile/otherfile.txt	
 
-9	rm -rf bananas
+9.	rm -rf bananas rm bananas
 
-10	cat somefile	
+10.	cat somefile	/cat file1 file2
 
-11	less somefile
+11.	less somefile
 
-12	head somefile -n 10	
+12.	head -n 20 somefile/head -20 somefile
 
-13	tail somefile -n 10	
+13.	tail -n 20 somefile/tail -20 somefile
 
-14	grep -l bacon bacon.txt	
+14.	grep -l bacon bacon.txt	
 
-15	wc -w bacon.txt	
+15.	wc -w bacon.txt/wc -w -l bacon.txt	
 
-16	history	
+16.	history	
 
-17	!x
+17.	!x
 
-18	chmod 777 somefile.txt
+18.	chmod 777 somefile.txt
 
-19	sort bacon.txt
+19.	sort bacon.txt
 
-20	Command of your choice
+20.	clear
 
-21 	grep bacon bacon.txt | wc -l
+21. grep bacon bacon.txt | wc -l
 
-22  grep blob a.py|head -4|wc > a.txt
+22.  grep blob a.py | head -4 | wc > a.txt
 
-22  cat file1 file2 > file0
+23.  cat file1 file2 > file0
 
+24.  man pages
 
+#### Not working
+Left and Right arrow presses
+
+#### References
+1. Stackoverflow for aligned printing in cd command
